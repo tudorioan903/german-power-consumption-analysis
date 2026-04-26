@@ -42,3 +42,24 @@ Power BI Desktop – Building the dashboard based on SQL insights
   
 <img width="1419" height="670" alt="3 - The data is here" src="https://github.com/user-attachments/assets/6e4d3afe-1d69-4367-8ba9-6ba34858c005" />
 
+## 🧹 Data Cleaning & Preparation
+### Data Quality Check
+- Verified total number of records
+- Identified potential duplicates
+- Checked for missing values in key columns
+  
+<img width="1448" height="629" alt="4 - Cleaning data" src="https://github.com/user-attachments/assets/984aee21-51aa-49d4-9feb-72e0731307f9" />
+
+After writing a short query to check the data quality, I identify 2 specific dates that have a missing value: 23/09/2018 and 17/04/2026.
+
+Since these 2 dates are not relevant to my analysis (which will be based only on data from 2019-2024) I can continue.
+
+No duplicate records were found in the dataset, ensuring that each timestamp is unique and reliable for analysis.
+
+### Data Transformation
+I will create a new table to facilitate analysis, with extracted time-based features:
+
+- Year
+- Month
+- Hour
+- Weekday
