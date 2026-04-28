@@ -5,7 +5,7 @@
 - [Data Source](#data-source)
 - [Project Tools](#project-tools)
 - [Importing the Dataset](#importing-the-dataset)
-- [Data Cleaning & Preparation](#data-cleaning--preparation)
+- [Data Cleaning & Preparation](#-data-cleaning--preparation)
 - [Exploratory Data Analysis](#-exploratory-data-analysis-eda)
   - [Annual Trend](#annual-trend)
   - [COVID-19 Impact](#covid-19-impact)
