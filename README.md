@@ -168,3 +168,14 @@ Observations:
 
 ➡️ These patterns suggest that the nuclear phase-out was primarily compensated by both increased fossil fuel usage and a gradual expansion of renewable energy sources.
 
+## 📊 Key Metrics (Nuclear Phase-Out)
+
+- ☢️ Nuclear generation dropped from ~3500 MW to near zero after April 2023, confirming the complete phase-out  
+
+- ⬛ Fossil fuel generation decreased by ~15.8% after the phase-out period  
+
+- 🟩 Renewable generation increased by ~6.7%, contributing to the energy mix transition  
+
+- ⚖️ The energy mix shifted toward a higher share of renewables, while overall reliance on fossil fuels declined
+
+➡️ The data suggests that the nuclear phase-out was not compensated by increased fossil fuel usage, but rather by a combination of renewable growth and reduced overall generation.
