@@ -1,21 +1,6 @@
-## ⚡ German Power Consumption: Impact of COVID-19, the Energy Crisis, and the Nuclear Phase-Out (2019-2024)
+# ⚡ German Power Consumption: Impact of COVID-19, the Energy Crisis, and the Nuclear Phase-Out (2019-2024)
 
-## 📋 Table of Contents
-- [Project Overview](#project-overview)
-- [Data Source](#data-source)
-- [Project Tools](#project-tools)
-- [Importing the Dataset](#importing-the-dataset)
-- [Data Cleaning & Preparation](#-data-cleaning--preparation)
-- [Exploratory Data Analysis](#-exploratory-data-analysis-eda)
-  - [Annual Trend](#annual-trend)
-  - [COVID-19 Impact](#covid-19-impact)
-  - [Energy Crisis 2022](#energy-crisis-2022)
-  - [Nuclear Phase-Out 2023](#nuclear-phase-out-2023)
-- [Key Findings](#key-findings)
-- [Conclusions](#conclusions)
-
-
-### Project Overview
+## Project Overview
 This project analyzes how major real-world events—such as the COVID-19 pandemic, the European energy crisis (2021-2022), and Germany’s nuclear phase-out (2023) have impacted electricity consumption patterns.
 
 
@@ -23,7 +8,7 @@ The analysis was conducted using SQL for data cleaning and exploration, followed
 
 Key findings highlight a noticeable drop in consumption during COVID-19 lockdowns, shifts in daily demand patterns, and changes in the energy mix following the nuclear shutdown.
 
-### 🌍 Data Source
+## 🌍 Data Source
 The dataset used in this project is based on publicly available electricity data from the European Network of Transmission System Operators for Electricity (ENTSO-E).
 
 * Original source: https://transparency.entsoe.eu/
@@ -34,7 +19,7 @@ The ENTSO-E Transparency Platform provides official, high-resolution data on ele
 The Kaggle dataset was used as a structured and analysis-ready version of the original data.
 
 
-### 🛠️ Project Tools
+## 🛠️ Project Tools
 
 SQL Server Management Studio (SSMS) 22 – Connecting, querying and managing the dataset
 
@@ -53,7 +38,7 @@ Power BI Desktop – Building the dashboard based on SQL insights
   
 <img width="934" height="543" alt="2 - Importing the  csv file" src="https://github.com/user-attachments/assets/a198793f-4b55-4733-aa22-f4150547ba3e" />
 
-- ✅ I now have the table available for querying
+- ✅ The table is now available for querying
   
 <img width="1419" height="670" alt="3 - The data is here" src="https://github.com/user-attachments/assets/6e4d3afe-1d69-4367-8ba9-6ba34858c005" />
 
@@ -81,7 +66,7 @@ I will create a new table to facilitate analysis, with extracted time-based feat
   
 <img width="519" height="222" alt="5 - Clean table" src="https://github.com/user-attachments/assets/265a430e-8d64-4728-84b7-367cfaeb6ae2" />
 
-## 📊 Exploratory Data Analysis (EDA)
+## 📊 Exploratory Data Analysis (EDA) - COVID19 period
 ### Annual trend 
 
 <img width="1653" height="993" alt="6 - Annual consumption average" src="https://github.com/user-attachments/assets/f5a49367-b7bb-4a12-a671-116f0933726b" />
@@ -144,7 +129,7 @@ I will create a new table to facilitate analysis, with extracted time-based feat
 
 - The gap between weekday and weekend consumption is reduced in 2020, suggesting a shift toward more uniform daily consumption patterns.
 
-### 📊 Key Metrics (COVID-19 Impact)
+## 📊 Key Metrics (COVID-19 Impact)
 
 - 📉 Overall consumption decreased by ~2,7% in 2020 compared to 2019  
 - 📆 Largest drop observed in April–May 2020 (~8,7%)
@@ -152,7 +137,7 @@ I will create a new table to facilitate analysis, with extracted time-based feat
 - 📊 Weekday consumption decreased by ~3.0%, compared to ~2.0% during weekends
 
 
-## 📌 Conclusion 
+## 📌 Conclusions (COVID-19 Impact) 
 
 This analysis demonstrates that electricity consumption patterns are highly sensitive to major external events.
 
@@ -162,3 +147,24 @@ This analysis demonstrates that electricity consumption patterns are highly sens
 - ❄️ Despite disruptions, seasonal trends remained consistent (higher in winter, lower in summer).
   
 Overall, the findings highlight the importance of energy data in understanding large-scale disruptions and their impact on society.
+
+## ☢️ Nuclear Phase-Out (2023)
+
+### 📊 Energy Mix Analysis
+
+<img width="2731" height="1173" alt="10 - Power by source" src="https://github.com/user-attachments/assets/749229ee-8943-4830-a76a-7b94e960992d" />
+
+Observations:
+
+- Nuclear generation drops sharply in 2023 and reaches near zero, following Germany’s nuclear phase-out completed in April 2023.
+
+- After the phase-out, fossil fuel generation (lignite + gas) shows a noticeable increase, suggesting a partial replacement of nuclear energy.
+
+- Renewable energy (wind + solar) displays an overall upward trend, particularly throughout 2023 and 2024, contributing to the energy mix transition.
+
+- Despite the growth in renewables, fossil fuels remain a significant component of electricity generation, indicating that the transition is still in progress.
+
+- The overall energy mix becomes more reliant on a combination of renewables and fossil fuels after the removal of nuclear power.
+
+➡️ These patterns suggest that the nuclear phase-out was primarily compensated by both increased fossil fuel usage and a gradual expansion of renewable energy sources.
+
