@@ -63,3 +63,64 @@ I will create a new table to facilitate analysis, with extracted time-based feat
 - Month
 - Hour
 - Weekday
+  
+<img width="519" height="222" alt="5 - Clean table" src="https://github.com/user-attachments/assets/265a430e-8d64-4728-84b7-367cfaeb6ae2" />
+
+## 📊 Exploratory Data Analysis (EDA)
+### Annual trend 
+
+<img width="1653" height="993" alt="6 - Annual consumption average" src="https://github.com/user-attachments/assets/f5a49367-b7bb-4a12-a671-116f0933726b" />
+
+- Electricity consumption remained relatively stable between 2015 and 2018, with a slight upward trend.
+
+- A significant drop is observed starting in 2019, continuing into 2020, which aligns with the onset of the COVID-19 pandemic and reduced industrial activity.
+
+- A partial recovery occurs in 2021, suggesting a rebound as economic activity resumed.
+
+- From 2022 to 2023, consumption declines again, potentially influenced by the European energy crisis and increased energy efficiency measures.
+
+- A gradual recovery is visible from 2024 to 2026, indicating stabilization in energy demand.
+
+### Monthly trend (2019 vs 2020)
+
+<img width="1653" height="993" alt="7 - Monthly consumption average" src="https://github.com/user-attachments/assets/7dfc083d-ed17-4c5c-bf41-180043422a4f" />
+
+- Electricity consumption in 2020 follows a similar seasonal pattern to 2019, with higher values in winter and lower in spring/summer.
+  
+- A clear divergence appears starting in March–April 2020, where consumption drops significantly below 2019 levels.
+  
+- The largest gap is observed during April and May, which coincides with the peak of COVID-19 lockdown measures.
+  
+- From mid-year onward, consumption in 2020 begins to gradually converge back toward 2019 levels, indicating partial recovery.
+  
+- By the end of the year, the difference between the two years becomes less pronounced, suggesting stabilization.
+
+### Hourly trend (2019 vs 2020)
+
+<img width="2076" height="1024" alt="8 - Hourly consumption average" src="https://github.com/user-attachments/assets/546282e1-0379-4f35-ac48-38e227fcf116" />
+
+- Both years exhibit a typical daily consumption pattern, with demand increasing in the morning, peaking around midday (11:00–13:00), and gradually declining in the evening.
+
+- In 2020, the morning peak appears less pronounced compared to 2019.
+
+ The most noticeable differences occur during standard working hours (08:00–16:00), where consumption in 2020 is significantly reduced.
+
+- The daily load curve in 2020 is slightly flatter, suggesting changes in energy usage behavior.
+
+- These changes coincide with the COVID-19 pandemic and increased remote work.
+
+### Weekday vs Weekend Consumption (2019 vs 2020)
+
+<img width="2170" height="1024" alt="9 - Weekend vs weekday" src="https://github.com/user-attachments/assets/9a76c8b6-e5a5-4027-8afb-545a5db84ca4" />
+
+- In 2019, electricity consumption is higher during weekdays (Monday–Friday) compared to weekends, reflecting normal industrial and business activity.
+
+- In 2020, consumption is consistently lower across all days of the week.
+
+- The reduction is more noticeable during weekdays, particularly from Tuesday to Friday.
+
+- Weekend consumption (Saturday and Sunday) shows a smaller difference between the two years.
+
+- This indicates that the COVID-19 pandemic had a stronger impact on industrial and commercial energy demand than on residential usage.
+
+- The gap between weekday and weekend consumption is reduced in 2020, suggesting a shift toward more uniform daily consumption patterns.
