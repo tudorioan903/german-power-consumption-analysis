@@ -1,14 +1,29 @@
-## German Power Consumpiton: Impact of COVID-19, the Energy Crisis, and the Nuclear Phase-Out (2019-2024)
+## ⚡ German Power Consumption: Impact of COVID-19, the Energy Crisis, and the Nuclear Phase-Out (2019-2024)
+
+## 📋 Table of Contents
+- [Project Overview](#project-overview)
+- [Data Source](#data-source)
+- [Project Tools](#project-tools)
+- [Importing the Dataset](#importing-the-dataset)
+- [Data Cleaning & Preparation](#data-cleaning--preparation)
+- [Exploratory Data Analysis](#-exploratory-data-analysis-eda)
+  - [Annual Trend](#annual-trend)
+  - [COVID-19 Impact](#covid-19-impact)
+  - [Energy Crisis 2022](#energy-crisis-2022)
+  - [Nuclear Phase-Out 2023](#nuclear-phase-out-2023)
+- [Key Findings](#key-findings)
+- [Conclusions](#conclusions)
+
 
 ### Project Overview
-This project analyzes electricity consumption in Germany using hourly data from 2015 to 2026, with a focus on major real-world events such as the COVID-19 pandemic, the 2021–2022 energy crisis, and the nuclear phase-out in 2023.
+This project analyzes how major real-world events—such as the COVID-19 pandemic, the European energy crisis (2021-2022), and Germany’s nuclear phase-out (2023) have impacted electricity consumption patterns.
+
 
 The analysis was conducted using SQL for data cleaning and exploration, followed by visualization to identify trends, seasonal patterns, and structural changes in energy usage.
 
 Key findings highlight a noticeable drop in consumption during COVID-19 lockdowns, shifts in daily demand patterns, and changes in the energy mix following the nuclear shutdown.
 
-
-### Data Source
+### 🌍 Data Source
 The dataset used in this project is based on publicly available electricity data from the European Network of Transmission System Operators for Electricity (ENTSO-E).
 
 * Original source: https://transparency.entsoe.eu/
@@ -19,7 +34,7 @@ The ENTSO-E Transparency Platform provides official, high-resolution data on ele
 The Kaggle dataset was used as a structured and analysis-ready version of the original data.
 
 
-### Project Tools
+### 🛠️ Project Tools
 
 SQL Server Management Studio (SSMS) 22 – Connecting, querying and managing the dataset
 
@@ -43,16 +58,16 @@ Power BI Desktop – Building the dashboard based on SQL insights
 <img width="1419" height="670" alt="3 - The data is here" src="https://github.com/user-attachments/assets/6e4d3afe-1d69-4367-8ba9-6ba34858c005" />
 
 ## 🧹 Data Cleaning & Preparation
-### Data Quality Check
+### 🔍 Data Quality Check
 - Verified total number of records
 - Identified potential duplicates
 - Checked for missing values in key columns
   
 <img width="1448" height="629" alt="4 - Cleaning data" src="https://github.com/user-attachments/assets/984aee21-51aa-49d4-9feb-72e0731307f9" />
 
-After writing a short query to check the data quality, I identify 2 specific dates that have a missing value: 23/09/2018 and 17/04/2026.
+After writing a short query to check the data quality, two specific dates that have a missing value were identified: 23/09/2018 and 17/04/2026.
 
-Since these 2 dates are not relevant to my analysis (which will be based only on data from 2019-2024) I can continue.
+Given that the analysis focuses on the 2019–2024 period, these records were excluded, as they represent an insignificant portion of the dataset and do not impact the results.
 
 No duplicate records were found in the dataset, ensuring that each timestamp is unique and reliable for analysis.
 
@@ -81,7 +96,9 @@ I will create a new table to facilitate analysis, with extracted time-based feat
 
 - A gradual recovery is visible from 2024 to 2026, indicating stabilization in energy demand.
 
-### Monthly trend (2019 vs 2020)
+- ➡️ This establishes a baseline for understanding how external events impact electricity demand.
+
+### 📆 Monthly trend (2019 vs 2020)
 
 <img width="1653" height="993" alt="7 - Monthly consumption average" src="https://github.com/user-attachments/assets/7dfc083d-ed17-4c5c-bf41-180043422a4f" />
 
@@ -95,7 +112,9 @@ I will create a new table to facilitate analysis, with extracted time-based feat
   
 - By the end of the year, the difference between the two years becomes less pronounced, suggesting stabilization.
 
-### Hourly trend (2019 vs 2020)
+- ➡️ The sharp drop in Q2 2020 highlights the immediate impact of lockdown measures on energy demand.
+
+### ⏱️ Hourly Consumption Pattern (2019 vs 2020)
 
 <img width="2076" height="1024" alt="8 - Hourly consumption average" src="https://github.com/user-attachments/assets/546282e1-0379-4f35-ac48-38e227fcf116" />
 
@@ -109,7 +128,7 @@ I will create a new table to facilitate analysis, with extracted time-based feat
 
 - These changes coincide with the COVID-19 pandemic and increased remote work.
 
-### Weekday vs Weekend Consumption (2019 vs 2020)
+### Weekday vs Weekend Consumption (2019 vs 2020) 
 
 <img width="2170" height="1024" alt="9 - Weekend vs weekday" src="https://github.com/user-attachments/assets/9a76c8b6-e5a5-4027-8afb-545a5db84ca4" />
 
@@ -124,3 +143,22 @@ I will create a new table to facilitate analysis, with extracted time-based feat
 - This indicates that the COVID-19 pandemic had a stronger impact on industrial and commercial energy demand than on residential usage.
 
 - The gap between weekday and weekend consumption is reduced in 2020, suggesting a shift toward more uniform daily consumption patterns.
+
+### 📊 Key Metrics (COVID-19 Impact)
+
+- 📉 Overall consumption decreased by ~2,7% in 2020 compared to 2019  
+- 📆 Largest drop observed in April–May 2020 (~8,7%)
+- 🕒 Peak reduction during working hours (08:00–16:00): ~2,5%  
+- 📊 Weekday consumption decreased by ~3.0%, compared to ~2.0% during weekends
+
+
+## 📌 Conclusion 
+
+This analysis demonstrates that electricity consumption patterns are highly sensitive to major external events.
+
+- 📉 COVID-19 led to a measurable reduction in electricity demand, particularly during working hours, indicating decreased industrial activity.
+- 📊 The most significant drop occurred in Q2 2020, coinciding with Germany’s first nationwide lockdown.
+- ⚖️ The reduced gap between weekdays and weekends suggests a shift toward more uniform consumption patterns.
+- ❄️ Despite disruptions, seasonal trends remained consistent (higher in winter, lower in summer).
+  
+Overall, the findings highlight the importance of energy data in understanding large-scale disruptions and their impact on society.
