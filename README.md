@@ -1,7 +1,7 @@
 # ⚡ German Power Consumption: Impact of COVID-19 and the Nuclear Phase-Out (2019-2024)
 
 ## Project Overview
-This project analyzes how major real-world events—such as the COVID-19 pandemic, the European energy crisis (2021-2022), and Germany’s nuclear phase-out (2023) have impacted electricity consumption patterns.
+This project analyzes how major real-world events—such as the COVID-19 pandemic and Germany’s nuclear phase-out (2023) have impacted electricity consumption patterns.
 
 The analysis was conducted using SQL for data cleaning and exploration, followed by visualization to identify trends, seasonal patterns, and structural changes in energy usage.
 
