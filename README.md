@@ -1,8 +1,7 @@
-# ⚡ German Power Consumption: Impact of COVID-19, the Energy Crisis, and the Nuclear Phase-Out (2019-2024)
+# ⚡ German Power Consumption: Impact of COVID-19 and the Nuclear Phase-Out (2019-2024)
 
 ## Project Overview
 This project analyzes how major real-world events—such as the COVID-19 pandemic, the European energy crisis (2021-2022), and Germany’s nuclear phase-out (2023) have impacted electricity consumption patterns.
-
 
 The analysis was conducted using SQL for data cleaning and exploration, followed by visualization to identify trends, seasonal patterns, and structural changes in energy usage.
 
@@ -27,7 +26,7 @@ SQL Server Express – Local SQL environment for restoring and working with the 
 
 Kaggle Dataset – Sample dataset used for analysis
 
-Power BI Desktop – Building the dashboard based on SQL insights
+Tableau – Data visualization
 
 ## 🔌 Importing the Dataset to SSMS 22🗄️
 - I will start by connecting to the SQL Server Express
@@ -66,7 +65,7 @@ I will create a new table to facilitate analysis, with extracted time-based feat
   
 <img width="519" height="222" alt="5 - Clean table" src="https://github.com/user-attachments/assets/265a430e-8d64-4728-84b7-367cfaeb6ae2" />
 
-## 📊 Exploratory Data Analysis (EDA) - COVID19 period
+## 📊 Exploratory Data Analysis (EDA) - COVID-19 period
 ### Annual trend 
 
 <img width="1653" height="993" alt="6 - Annual consumption average" src="https://github.com/user-attachments/assets/f5a49367-b7bb-4a12-a671-116f0933726b" />
@@ -131,9 +130,9 @@ I will create a new table to facilitate analysis, with extracted time-based feat
 
 ## 📊 Key Metrics (COVID-19 Impact)
 
-- 📉 Overall consumption decreased by ~2,7% in 2020 compared to 2019  
-- 📆 Largest drop observed in April–May 2020 (~8,7%)
-- 🕒 Peak reduction during working hours (08:00–16:00): ~2,5%  
+- 📉 Overall consumption decreased by ~2.7% in 2020 compared to 2019  
+- 📆 Largest drop observed in April–May 2020 (~8.7%)
+- 🕒 Peak reduction during working hours (08:00–16:00): ~2.5%  
 - 📊 Weekday consumption decreased by ~3.0%, compared to ~2.0% during weekends
 
 
@@ -158,19 +157,17 @@ Observations:
 
 - Nuclear generation drops sharply in 2023 and reaches near zero, following Germany’s nuclear phase-out completed in April 2023.
 
-- After the phase-out, fossil fuel generation (lignite + gas) shows a noticeable increase, suggesting a partial replacement of nuclear energy.
+- Fossil fuel generation remains an important part of the energy mix, but the before/after comparison shows an overall decrease of ~15.8% after the phase-out period.
 
-- Renewable energy (wind + solar) displays an overall upward trend, particularly throughout 2023 and 2024, contributing to the energy mix transition.
+- Renewable generation increased by ~6.7%, suggesting a gradual shift toward cleaner electricity generation.
 
-- Despite the growth in renewables, fossil fuels remain a significant component of electricity generation, indicating that the transition is still in progress.
+- The energy mix becomes more dependent on renewables and remaining fossil sources after the removal of nuclear power.
 
-- The overall energy mix becomes more reliant on a combination of renewables and fossil fuels after the removal of nuclear power.
-
-➡️ These patterns suggest that the nuclear phase-out was primarily compensated by both increased fossil fuel usage and a gradual expansion of renewable energy sources.
+➡️ These patterns suggest that the nuclear phase-out was not compensated by increased fossil fuel generation, but rather by renewable growth and reduced overall generation.
 
 ## 📊 Key Metrics (Nuclear Phase-Out)
 
-- ☢️ Nuclear generation dropped from ~3500 MW to near zero after April 2023, confirming the complete phase-out  
+- ☢️ Nuclear generation dropped from ~3500 MW (18%) to near zero (0%) after April 2023, confirming the complete phase-out  
 
 - ⬛ Fossil fuel generation decreased by ~15.8% after the phase-out period  
 
@@ -182,9 +179,11 @@ Observations:
 
 ## 📊 Data Visualization (Tableau)
 
+### Energy Mix Analysis (trend chart)
+
 To complement the SQL-based analysis, a visualization was created using Tableau to provide a clearer and more intuitive view of the changes in Germany’s electricity generation mix.
 
-<img width="2664" height="1774" alt="energytableau" src="https://github.com/user-attachments/assets/5d72cecf-b54b-449c-b5ab-476cd5402f7f" />
+<img width="2664" height="1808" alt="energy_mix_trend" src="https://github.com/user-attachments/assets/85ddb5c8-592b-4ad1-86c2-4ba9c6c6ab75" />
 
 The chart illustrates how Germany’s electricity generation mix evolved before and after the nuclear phase-out completed in April 2023.
 
@@ -193,3 +192,37 @@ The chart illustrates how Germany’s electricity generation mix evolved before 
 - Fossil fuels remain a significant contributor, adjusting to compensate for the loss of nuclear capacity  
 
 ➡️ This visualization reinforces the findings from the SQL analysis and highlights how the energy system adapted following the nuclear phase-out.
+
+### 📊 Energy Mix Share (%)
+
+<img width="1758" height="1822" alt="energy_mix_share" src="https://github.com/user-attachments/assets/6ab10a76-30ec-437c-83c4-07eb2614e9be" />
+
+This chart shows how the composition of Germany’s electricity generation evolved around the nuclear phase-out period.
+
+- Nuclear energy steadily declines and drops to near zero after April 2023  
+- Renewable energy increases over time, becoming the dominant source  
+- Fossil fuels remain a significant component, adjusting to compensate for the loss of nuclear capacity  
+
+➡️ The results highlight a structural shift in the energy mix, driven primarily by renewable growth.
+
+### 📊 Energy Mix Comparison (Before vs After Phase-Out)
+
+<img width="1714" height="1788" alt="energy_mix_before_after" src="https://github.com/user-attachments/assets/6fa2ffd0-2065-44d6-94a3-90731c917b1d" />
+
+This chart compares the average energy mix before and after Germany’s nuclear phase-out in April 2023.
+
+- Nuclear energy share drops from ~18% to 0% after the phase-out  
+- Renewable energy increases significantly, becoming the dominant source  
+- Fossil fuel share remains relatively stable, indicating it did not fully compensate for the nuclear shutdown  
+
+➡️ The data suggests that the transition was driven mainly by renewable expansion rather than increased reliance on fossil fuels.
+
+## 📌 Final Conclusion
+
+This project shows how electricity data can reveal both demand-side and supply-side changes in a national energy system.
+
+The COVID-19 analysis highlights how external shocks can reduce electricity consumption, especially during working hours and weekdays, suggesting reduced industrial and commercial activity.
+
+The nuclear phase-out analysis shows a structural change in Germany’s electricity generation mix, with nuclear generation dropping to near zero after April 2023, while renewable generation increased and fossil generation declined in the post-phase-out period.
+
+Overall, the project demonstrates how SQL, Excel, and Tableau can be combined to clean, analyze, visualize, and interpret real-world energy data.
