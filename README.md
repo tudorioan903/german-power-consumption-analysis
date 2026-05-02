@@ -179,3 +179,17 @@ Observations:
 - ⚖️ The energy mix shifted toward a higher share of renewables, while overall reliance on fossil fuels declined
 
 ➡️ The data suggests that the nuclear phase-out was not compensated by increased fossil fuel usage, but rather by a combination of renewable growth and reduced overall generation.
+
+## 📊 Data Visualization (Tableau)
+
+To complement the SQL-based analysis, a visualization was created using Tableau to provide a clearer and more intuitive view of the changes in Germany’s electricity generation mix.
+
+<img width="2664" height="1774" alt="energytableau" src="https://github.com/user-attachments/assets/5d72cecf-b54b-449c-b5ab-476cd5402f7f" />
+
+The chart illustrates how Germany’s electricity generation mix evolved before and after the nuclear phase-out completed in April 2023.
+
+- Nuclear generation drops to near zero after 2023, confirming the policy implementation  
+- Renewable energy shows a gradual upward trend, becoming a more dominant component of the energy mix  
+- Fossil fuels remain a significant contributor, adjusting to compensate for the loss of nuclear capacity  
+
+➡️ This visualization reinforces the findings from the SQL analysis and highlights how the energy system adapted following the nuclear phase-out.
