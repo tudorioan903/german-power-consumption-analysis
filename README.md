@@ -1,5 +1,31 @@
 # ⚡ German Power Consumption: Impact of COVID-19 and the Nuclear Phase-Out (2019-2024)
+![SSMS](https://img.shields.io/badge/SSMS-22-blue)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoftsqlserver&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?logo=tableau&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?logo=microsoftexcel&logoColor=white)
 
+## 📋 Table of Contents
+- [Project Overview](#project-overview)
+- [Data Source](#data-source)
+- [Project Tools](#project-tools)
+- [Importing the Dataset](#importing-the-dataset-to-ssms-22)
+- [Data Cleaning & Preparation](#data-cleaning--preparation)
+- [Exploratory Data Analysis — COVID-19](#exploratory-data-analysis-eda---covid-19-period)
+  - [Annual Trend](#annual-trend)
+  - [Monthly Trend](#monthly-trend-2019-vs-2020)
+  - [Hourly Pattern](#hourly-consumption-pattern-2019-vs-2020)
+  - [Weekday vs Weekend](#weekday-vs-weekend-consumption-2019-vs-2020)
+  - [Interactive Dashboard](#interactive-dashboard-tableau-public)
+- [Key Metrics — COVID-19](#key-metrics-covid-19-impact)
+- [Conclusions — COVID-19](#conclusions-covid-19-impact)
+- [Nuclear Phase-Out (2023)](#nuclear-phase-out-2023)
+  - [Energy Mix Analysis](#energy-mix-analysis)
+  - [Energy Mix Share](#energy-mix-share-)
+  - [Energy Mix Comparison](#energy-mix-comparison-before-vs-after-phase-out)
+- [Key Metrics — Nuclear](#key-metrics-nuclear-phase-out)
+- [Data Visualization (Tableau)](#data-visualization-tableau)
+- [Final Conclusion](#final-conclusion)
+  
 ## Project Overview
 This project analyzes how major real-world events—such as the COVID-19 pandemic and Germany’s nuclear phase-out (2023) have impacted electricity consumption patterns.
 
@@ -27,6 +53,8 @@ SQL Server Express – Local SQL environment for restoring and working with the 
 Kaggle Dataset – Sample dataset used for analysis
 
 Tableau – Data visualization and dashboards
+
+Microsoft Excel – Data visualization and chart creation
 
 [View SQL Queries](queries/)
 
