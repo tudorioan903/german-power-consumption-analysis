@@ -26,7 +26,9 @@ SQL Server Express – Local SQL environment for restoring and working with the 
 
 Kaggle Dataset – Sample dataset used for analysis
 
-Tableau – Data visualization
+Tableau – Data visualization and dashboards
+
+[View SQL Queries](queries/)
 
 ## 🔌 Importing the Dataset to SSMS 22🗄️
 - I will start by connecting to the SQL Server Express
@@ -127,6 +129,13 @@ I will create a new table to facilitate analysis, with extracted time-based feat
 - This indicates that the COVID-19 pandemic had a stronger impact on industrial and commercial energy demand than on residential usage.
 
 - The gap between weekday and weekend consumption is reduced in 2020, suggesting a shift toward more uniform daily consumption patterns.
+
+### 📊 Interactive Dashboard (Tableau Public)
+
+🔗 [View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/ioan.gabriel.tudor/viz/covid19analysisweb/COVID-19ImpactDashboard)
+
+<img width="1896" height="1578" alt="Image 03 05 2026 at 13 59" src="https://github.com/user-attachments/assets/771149cb-ce54-4f32-88f6-f43b4d49ff6e" />
+
 
 ## 📊 Key Metrics (COVID-19 Impact)
 
