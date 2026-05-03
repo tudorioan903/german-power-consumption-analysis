@@ -225,7 +225,8 @@ Observations:
 
 To complement the SQL-based analysis, a visualization was created using Tableau to provide a clearer and more intuitive view of the changes in Germany’s electricity generation mix.
 
-<img width="2664" height="1808" alt="energy_mix_trend" src="https://github.com/user-attachments/assets/85ddb5c8-592b-4ad1-86c2-4ba9c6c6ab75" />
+<img width="2664" height="1690" alt="energy_mix_trend" src="https://github.com/user-attachments/assets/16349abb-c809-42c0-896a-e10cbb482ee7" />
+
 
 The chart illustrates how Germany’s electricity generation mix evolved before and after the nuclear phase-out completed in April 2023.
 
@@ -237,7 +238,8 @@ The chart illustrates how Germany’s electricity generation mix evolved before 
 
 ### 📊 Energy Mix Share (%)
 
-<img width="1758" height="1822" alt="energy_mix_share" src="https://github.com/user-attachments/assets/6ab10a76-30ec-437c-83c4-07eb2614e9be" />
+<img width="2540" height="1706" alt="energy_mix_share" src="https://github.com/user-attachments/assets/bcb4b02f-b498-43e0-9d8d-dd7a76f8bd7a" />
+
 
 This chart shows how the composition of Germany’s electricity generation evolved around the nuclear phase-out period.
 
@@ -249,7 +251,8 @@ This chart shows how the composition of Germany’s electricity generation evolv
 
 ### 📊 Energy Mix Comparison (Before vs After Phase-Out)
 
-<img width="1714" height="1788" alt="energy_mix_before_after" src="https://github.com/user-attachments/assets/6fa2ffd0-2065-44d6-94a3-90731c917b1d" />
+<img width="1714" height="1706" alt="energy_mix_before_after" src="https://github.com/user-attachments/assets/89690d52-b219-4acb-8a98-376488c4bc8a" />
+
 
 This chart compares the average energy mix before and after Germany’s nuclear phase-out in April 2023.
 
