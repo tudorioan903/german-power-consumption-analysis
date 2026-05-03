@@ -9,7 +9,7 @@
 
 - [Project Overview](#project-overview)
 - [Data Source](#-data-source)
-- [Project Tools](#-project-tools)
+- [Project Tools](#project-tools)
 - [Importing the Dataset to SSMS 22](#-importing-the-dataset-to-ssms-22)
 - [Data Cleaning & Preparation](#-data-cleaning--preparation)
   - [Data Quality Check](#-data-quality-check)
