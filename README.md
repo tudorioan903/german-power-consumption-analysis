@@ -12,9 +12,7 @@
 - [Project Tools](#️-project-tools)
 - [Importing the Dataset to SSMS 22](#-importing-the-dataset-to-ssms-22️)
 - [Data Cleaning & Preparation](#-data-cleaning--preparation)
-  - [Data Quality Check](#-data-quality-check)
-  - [Data Transformation](#data-transformation)
-- [Exploratory Data Analysis (COVID-19 period)](#-exploratory-data-analysis-eda---covid-19-period)
+- [Analysis 1: (COVID-19 Impact on Electricity Consumption)](#-exploratory-data-analysis-eda---covid-19-period)
   - [Annual Trend](#annual-trend)
   - [Monthly Trend (2019 vs 2020)](#-monthly-trend-2019-vs-2020)
   - [Hourly Consumption Pattern](#️-hourly-consumption-pattern-2019-vs-2020)
@@ -22,7 +20,7 @@
 - [Interactive Dashboard (Tableau)](#-interactive-dashboard-tableau-public)
 - [Key Metrics (COVID-19 Impact)](#-key-metrics-covid-19-impact)
 - [Conclusions (COVID-19 Impact)](#-conclusions-covid-19-impact)
-- [Nuclear Phase-Out (2023)](#️-nuclear-phase-out-2023)
+- [Analysis 2: Nuclear Phase-Out and Energy Mix](#️-nuclear-phase-out-2023)
   - [Energy Mix Analysis](#-energy-mix-analysis)
   - [Key Metrics (Nuclear Phase-Out)](#-key-metrics-nuclear-phase-out)
 - [Data Visualization (Tableau)](#-data-visualization-tableau)
@@ -39,7 +37,9 @@ The analysis was conducted using SQL for data cleaning and exploration, followed
 Key findings highlight a noticeable drop in consumption during COVID-19 lockdowns, shifts in daily demand patterns, and changes in the energy mix following the nuclear shutdown.
 
 ## 🌍 Data Source
-The dataset used in this project is based on publicly available electricity data from the European Network of Transmission System Operators for Electricity (ENTSO-E).
+The dataset used in this project is based on publicly available electricity data from the European Network of Transmission System Operators for Electricity (ENTSO-E). 
+
+The dataset contains over 380,000 hourly records spanning 2015–2026, sourced from the ENTSO-E Transparency Platform.
 
 * Original source: https://transparency.entsoe.eu/
 * Processed dataset: https://www.kaggle.com/datasets/samithsachidanandan/german-power-consumption
@@ -68,7 +68,7 @@ Microsoft Excel – Data visualization and chart creation
   
 <img width="613" height="746" alt="1 - Connecting to SQLEXPRESS" src="https://github.com/user-attachments/assets/8931946b-c29a-4003-83c9-4b74379031ed" />
 
-- Importing the .csv file and making sure everything goes smooth
+- The CSV file was imported successfully into SQL Server.
   
 <img width="934" height="543" alt="2 - Importing the  csv file" src="https://github.com/user-attachments/assets/a198793f-4b55-4733-aa22-f4150547ba3e" />
 
@@ -107,7 +107,7 @@ I will create a new table to facilitate analysis, with extracted time-based feat
 
 - Electricity consumption remained relatively stable between 2015 and 2018, with a slight upward trend.
 
-- A significant drop is observed starting in 2019, continuing into 2020, which aligns with the onset of the COVID-19 pandemic and reduced industrial activity.
+- Consumption peaked in 2018, followed by a significant drop in 2019. This decline continued into 2020, coinciding with the onset of the COVID-19 pandemic.
 
 - A partial recovery occurs in 2021, suggesting a rebound as economic activity resumed.
 
@@ -189,6 +189,9 @@ This analysis demonstrates that electricity consumption patterns are highly sens
   
 Overall, the findings highlight the importance of energy data in understanding large-scale disruptions and their impact on society.
 
+
+➡️ The following section shifts focus from demand-side analysis to supply-side changes, examining how Germany's electricity generation mix evolved following the nuclear phase-out in April 2023.
+
 ## ☢️ Nuclear Phase-Out (2023)
 
 ### 📊 Energy Mix Analysis
@@ -199,7 +202,7 @@ Observations:
 
 - Nuclear generation drops sharply in 2023 and reaches near zero, following Germany’s nuclear phase-out completed in April 2023.
 
-- Fossil fuel generation remains an important part of the energy mix, but the before/after comparison shows an overall decrease of ~15.8% after the phase-out period.
+- Fossil fuel generation remained relatively stable after the phase-out, decreasing only marginally from 44.0% to 43.1%, suggesting it did not significantly compensate for the loss of nuclear capacity.
 
 - Renewable generation increased by ~6.7%, suggesting a gradual shift toward cleaner electricity generation.
 
@@ -211,11 +214,12 @@ Observations:
 
 - ☢️ Nuclear generation dropped from ~3500 MW (18%) to near zero (0%) after April 2023, confirming the complete phase-out  
 
-- ⬛ Fossil fuel generation decreased by ~15.8% after the phase-out period  
+- ⬛ Fossil fuel share remained stable at ~43–44%, declining only marginally after the phase-out 
 
 - 🟩 Renewable generation increased by ~6.7%, contributing to the energy mix transition  
 
-- ⚖️ The energy mix shifted toward a higher share of renewables, while overall reliance on fossil fuels declined
+- ⚖️ The energy mix shifted toward a higher share of renewables, filling the gap left by nuclear energy
+
 
 ➡️ The data suggests that the nuclear phase-out was not compensated by increased fossil fuel usage, but rather by a combination of renewable growth and reduced overall generation.
 
@@ -270,4 +274,4 @@ The COVID-19 analysis highlights how external shocks can reduce electricity cons
 
 The nuclear phase-out analysis shows a structural change in Germany’s electricity generation mix, with nuclear generation dropping to near zero after April 2023, while renewable generation increased and fossil generation declined in the post-phase-out period.
 
-Overall, the project demonstrates how SQL, Excel, and Tableau can be combined to clean, analyze, visualize, and interpret real-world energy data.
+The findings confirm that electricity data is a reliable indicator of large-scale economic and policy shifts. COVID-19 reduced demand by ~2.7%, with the sharpest impact during working hours — reflecting the collapse of industrial activity. The nuclear phase-out restructured Germany's supply side entirely, with renewables absorbing the 18% gap left by nuclear, while fossil fuel reliance remained stable — contradicting initial concerns about increased coal dependency.
