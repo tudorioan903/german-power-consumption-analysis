@@ -17,13 +17,13 @@
   - [Monthly Trend (2019 vs 2020)](#-monthly-trend-2019-vs-2020)
   - [Hourly Consumption Pattern](#️-hourly-consumption-pattern-2019-vs-2020)
   - [Weekday vs Weekend](#weekday-vs-weekend-consumption-2019-vs-2020)
-- [Interactive Dashboard (Tableau)](#-interactive-dashboard-tableau-public)
-- [Key Metrics (COVID-19 Impact)](#-key-metrics-covid-19-impact)
-- [Conclusions (COVID-19 Impact)](#-conclusions-covid-19-impact)
+  - [Interactive Dashboard (Tableau)](#-interactive-dashboard-tableau-public)
+  - [Key Metrics (COVID-19 Impact)](#-key-metrics-covid-19-impact)
+  - [Conclusions (COVID-19 Impact)](#-conclusions-covid-19-impact)
 - [Analysis 2: Nuclear Phase-Out (2023) and Energy Mix](#️-analysis-2-nuclear-phase-out-2023-and-energy-mix)
   - [Energy Mix Analysis](#-energy-mix-analysis)
   - [Key Metrics (Nuclear Phase-Out)](#-key-metrics-nuclear-phase-out)
-- [Data Visualization (Tableau)](#-data-visualization-tableau)
+  - [Data Visualization (Tableau)](#-data-visualization-tableau)
   - [Energy Mix Trend](#-energy-mix-analysis-trend-chart)
   - [Energy Mix Share](#-energy-mix-share-)
   - [Before vs After Comparison](#-energy-mix-comparison-before-vs-after-phase-out)
@@ -170,7 +170,7 @@ I will create a new table to facilitate analysis, with extracted time-based feat
 <img width="1896" height="1578" alt="Image 03 05 2026 at 13 59" src="https://github.com/user-attachments/assets/771149cb-ce54-4f32-88f6-f43b4d49ff6e" />
 
 
-## 📊 Key Metrics (COVID-19 Impact)
+### 📊 Key Metrics (COVID-19 Impact)
 
 - 📉 Overall consumption decreased by ~2.7% in 2020 compared to 2019  
 - 📆 Largest drop observed in April–May 2020 (~8.7%)
@@ -178,7 +178,7 @@ I will create a new table to facilitate analysis, with extracted time-based feat
 - 📊 Weekday consumption decreased by ~3.0%, compared to ~2.0% during weekends
 
 
-## 📌 Conclusions (COVID-19 Impact) 
+### 📌 Conclusions (COVID-19 Impact) 
 
 This analysis demonstrates that electricity consumption patterns are highly sensitive to major external events.
 
@@ -210,7 +210,7 @@ Observations:
 
 ➡️ These patterns suggest that the nuclear phase-out was not compensated by increased fossil fuel generation, but rather by renewable growth and reduced overall generation.
 
-## 📊 Key Metrics (Nuclear Phase-Out)
+### 📊 Key Metrics (Nuclear Phase-Out)
 
 - ☢️ Nuclear generation dropped from ~3500 MW (18%) to near zero (0%) after April 2023, confirming the complete phase-out  
 
@@ -223,7 +223,7 @@ Observations:
 
 ➡️ The data suggests that the nuclear phase-out was not compensated by increased fossil fuel usage, but rather by a combination of renewable growth and reduced overall generation.
 
-## 📊 Data Visualization (Tableau)
+### 📊 Data Visualization (Tableau)
 
 ### Energy Mix Analysis (trend chart)
 
