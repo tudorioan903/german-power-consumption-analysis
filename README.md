@@ -268,8 +268,6 @@ This chart compares the average energy mix before and after Germany’s nuclear 
 
 ## 📌 Final Conclusion
 
-This project shows how electricity data can reveal both demand-side and supply-side changes in a national energy system.
-
 The COVID-19 analysis highlights how external shocks can reduce electricity consumption, especially during working hours and weekdays, suggesting reduced industrial and commercial activity.
 
 The nuclear phase-out analysis shows a structural change in Germany’s electricity generation mix, with nuclear generation dropping to near zero after April 2023, while renewable generation increased and fossil generation declined in the post-phase-out period.
