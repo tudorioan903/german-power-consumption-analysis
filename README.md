@@ -18,7 +18,7 @@
 - [Exploratory Data Analysis (COVID-19 period)](#-exploratory-data-analysis-eda---covid-19-period)
   - [Annual Trend](#annual-trend)
   - [Monthly Trend (2019 vs 2020)](#-monthly-trend-2019-vs-2020)
-- [Hourly Consumption Pattern](#️-hourly-consumption-pattern-2019-vs-2020)
+  - [Hourly Consumption Pattern](#️-hourly-consumption-pattern-2019-vs-2020)
   - [Weekday vs Weekend](#weekday-vs-weekend-consumption-2019-vs-2020)
 - [Interactive Dashboard](#-interactive-dashboard-tableau-public)
 - [Key Metrics (COVID-19 Impact)](#-key-metrics-covid-19-impact)
