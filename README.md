@@ -12,7 +12,7 @@
 - [Project Tools](#️-project-tools)
 - [Importing the Dataset to SSMS 22](#-importing-the-dataset-to-ssms-22️)
 - [Data Cleaning & Preparation](#-data-cleaning--preparation)
-- [Analysis 1: (COVID-19 Impact on Electricity Consumption)](#-exploratory-data-analysis-eda---covid-19-period)
+- [Analysis 1: COVID-19 Impact on Electricity Consumption](#-analysis-1-covid-19-impact-on-electricity-consumption)
   - [Annual Trend](#annual-trend)
   - [Monthly Trend (2019 vs 2020)](#-monthly-trend-2019-vs-2020)
   - [Hourly Consumption Pattern](#️-hourly-consumption-pattern-2019-vs-2020)
@@ -20,7 +20,7 @@
 - [Interactive Dashboard (Tableau)](#-interactive-dashboard-tableau-public)
 - [Key Metrics (COVID-19 Impact)](#-key-metrics-covid-19-impact)
 - [Conclusions (COVID-19 Impact)](#-conclusions-covid-19-impact)
-- [Analysis 2: Nuclear Phase-Out and Energy Mix](#️-nuclear-phase-out-2023)
+- [Analysis 2: Nuclear Phase-Out (2023) and Energy Mix](#️-analysis-2-nuclear-phase-out-2023-and-energy-mix)
   - [Energy Mix Analysis](#-energy-mix-analysis)
   - [Key Metrics (Nuclear Phase-Out)](#-key-metrics-nuclear-phase-out)
 - [Data Visualization (Tableau)](#-data-visualization-tableau)
@@ -100,7 +100,7 @@ I will create a new table to facilitate analysis, with extracted time-based feat
   
 <img width="519" height="222" alt="5 - Clean table" src="https://github.com/user-attachments/assets/265a430e-8d64-4728-84b7-367cfaeb6ae2" />
 
-## 📊 Exploratory Data Analysis (EDA) - COVID-19 period
+## 📊 Analysis 1: COVID-19 Impact on Electricity Consumption
 ### Annual trend 
 
 <img width="1653" height="993" alt="6 - Annual consumption average" src="https://github.com/user-attachments/assets/f5a49367-b7bb-4a12-a671-116f0933726b" />
@@ -192,7 +192,7 @@ Overall, the findings highlight the importance of energy data in understanding l
 
 ➡️ The following section shifts focus from demand-side analysis to supply-side changes, examining how Germany's electricity generation mix evolved following the nuclear phase-out in April 2023.
 
-## ☢️ Nuclear Phase-Out (2023)
+## ☢️ Analysis 2: Nuclear Phase-Out (2023) and Energy Mix 
 
 ### 📊 Energy Mix Analysis
 
